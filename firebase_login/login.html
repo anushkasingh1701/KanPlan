@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="login.css">
+  <title>signin-signup</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="signin-signup">
+      
+      <form action="" class="sign-in-form" id="signin" onsubmit="signin(event)">
+        <h2 class="title">Sign In</h2>
+
+        <div class="input-field">
+          <i class="fas fa-user"></i>
+          <input type="email" name="email1" placeholder="Email" id="email1">
+        </div>
+        <div class="input-field">
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password1" placeholder="Password" id="password1">
+        </div>
+
+        <input type="submit" value="Login" class="btn" id="login">
+
+        <p class="social-text">Or Sign in with social platform</p>
+
+        <div class="social-media">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="social-icon">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+
+        <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+      </form>
+
+
+      <form action="" class="sign-up-form" id="signup" onsubmit="signup(event)">
+        <h2 class="title">Sign Up</h2>
+
+        <div class="input-field">
+          <i class="fas fa-user"></i>
+          <input type="text" name="name" id="name" placeholder="Username">
+        </div>
+
+        <div class="input-field">
+          <i class="fas fa-envelope"></i>
+          <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+
+        <div class="input-field">
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" id="password" placeholder="Password">
+        </div>
+
+        <input type="submit" value="Sign up" class="btn" id="submit">
+
+        <p class="social-text">Or Sign in with social platform</p>
+
+        <div class="social-media">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+
+        <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+      </form>
+
+    </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>Already a KanPlanner?</h3>
+          <p>Sign In with your registered Email and effortlessly manage your tasks.</p>
+          <button class="btn" id="sign-in-btn">Sign in</button>
+        </div>
+        <img src="./images/Login-amico.svg" alt="" class="image">
+      </div>
+
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>Welcome to KanPlan</h3>
+          <p>Get started in minutes - You're one click away from less busywork. It's free. No credit card needed.</p>
+          <button class="btn" id="sign-up-btn">Sign up</button>
+        </div>
+        <img src="./images/kanban method-rafiki.svg" alt="" class="image">
+      </div>
+    </div>
+  </div>
+
+  <script src="login.js" type="module"></script>
+  <script src="animation.js"></script>
+
+</body>
+
+</html>
