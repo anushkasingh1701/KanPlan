@@ -818,7 +818,16 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+}
+
+@media screen and (min-width:770px) {
+  .features .board-ss{
+    height: 30rem;
+    width: 43rem;
+    border-radius: 10px;
+    min-height: 400px;
+  }
+  
 }
 
 /*--------------------------------------------------------------
