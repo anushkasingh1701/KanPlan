@@ -36,7 +36,8 @@ window.signup = function (e) {
 	}
 	createUserWithEmailAndPassword(auth, obj.email, obj.password)
 		.then(function (success) {
-			alert("SignUp Successful")
+			window.location.assign("../kanban_card/card.html");
+			alert("SignUp Successful");
 		})
 		.catch(function (err) {
 			alert("Error " + err)
@@ -58,7 +59,8 @@ window.signin = function (e) {
 	}
 	signInWithEmailAndPassword(auth1, obj2.email1, obj2.password1)
 		.then(function (success) {
-			alert("Login Successful")
+			window.location.assign("../kanban_card/card.html");
+			alert("Login Successful");
 		})
 		.catch(function (err) {
 			alert("Login Error " + err)
