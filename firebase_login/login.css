@@ -189,11 +189,11 @@ a {
   transform: translateX(0);
 }
 .account-text {
-  padding: 6px;
+  display: none;
 }
-#sign-in-btn2 {
+/* #sign-in-btn2 {
   color: #7F2FC7;
-}
+} */
 
 
 /*Animation*/
