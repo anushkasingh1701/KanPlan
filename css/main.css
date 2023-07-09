@@ -198,7 +198,7 @@ body {
     color: white;
     margin: 0;
     font-weight: 600;
-    background-color: #7f2fc7;
+    background: linear-gradient(180deg, #A355EA 0%, #7B27D8 100%);
     padding-inline: 1rem;
     border-radius: 1rem;
 }
@@ -253,7 +253,7 @@ input[type="text"]:focus {
     border: none;
     font-size: 1.5em;
     border-radius: 100%;
-    background-color: #7f2fc7;
+    background: linear-gradient(180deg, #A355EA 0%, #7B27d8 100%);
     color: white;
     padding: 0.2em 0.5em;
     cursor: pointer;
@@ -481,7 +481,7 @@ input[type="text"]:focus {
 }
 
 input:checked + .slider {
-    background-color: #7f2fc7;
+    background: linear-gradient(180deg, #A355EA 0%, #7B27d8 100%);
 }
 
 input:focus + .slider {
