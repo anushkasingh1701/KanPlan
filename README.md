@@ -1,6 +1,7 @@
 **KanPlan - A Kanban Website**
 
-This project is a web-based Kanban board application that allows users to manage their tasks and projects using the Kanban methodology. The website consists of a landing page, a sign-up page for user authentication using Firebase, and a Kanban boards page where users can create and manage their boards. Here is the live link to the project: [Live Link](https://anushkasingh1701.github.io/KanPlan/)
+This project is a web-based Kanban board application that allows users to manage their tasks and projects using the Kanban methodology. The website consists of a landing page, a sign-up page for user authentication using Firebase, and a Kanban boards page where users can create and manage their boards. 
+Here is the live link to the project: [Live Link](https://anushkasingh1701.github.io/KanPlan/)
 
 
 **Features**
